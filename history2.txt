@@ -1,0 +1,328 @@
+    1  sudo apt update
+    2  sudo apt upgrade
+    3  tre
+    4  tree
+    5  -tree
+    6  tree
+    7  ls
+    8  cd Desktop
+    9  touch HOLA
+   10  echo "HOLA">hola.txt
+   11  sudo apt update
+   12  whoami
+   13  cd etc
+   14  df
+   15  man df
+   16  df -h
+   17  lsblk
+   18  clear
+   19  ls
+   20  cd..
+   21  cd.
+   22  useradd temp
+   23  cd etc/
+   24  cd /etc
+   25  ls
+   26  cd /
+   27  ls
+   28  clear
+   29  ls
+   30  cd etc
+   31  useradd temp
+   32  sudo useradd temp
+   33  whoami
+   34  sudo visud
+   35  useradd temp
+   36  useradd temp alumno
+   37  ls
+   38  clear
+   39  sudo visudo}
+   40  sudo visudo
+   41  sudo useradd temp
+   42  sudo addgroup ejercicio
+   43  ls
+   44  tree
+   45  cd passwd
+   46  cd /passwd
+   47  passwd
+   48  xcx
+   49  clear
+   50  nano passwd
+   51  clear
+   52  id temp
+   53  sudo usermod -aG ejercicio temp
+   54  id temp
+   55  cd home
+   56  cd /home
+   57  ls
+   58  mkdir /home/temp/ejercicio1
+   59  sudo visudo
+   60  cd alumno
+   61  ls
+   62  cat
+   63  ls
+   64  cd /
+   65  ls
+   66  clear
+   67  getent passwd
+   68  cd /home
+   69  clear
+   70  mkdir temp
+   71  sudo mkdir temp
+   72  cd temp
+   73  visudo
+   74  sudo visudo
+   75  whoami
+   76  sudo visudo
+   77  cd /etc
+   78  su
+   79  sudo visudo
+   80  lsmod | grep vboxguest
+   81  sudo usermod -aG sudo temp
+   82  sudo visudo
+   83  sudo usermod -aG sudo alumno
+   84  sudo visudo
+   85  groups alumno
+   86  cd /home
+   87  ls
+   88  cd temp
+   89  ls
+   90  clear
+   91  mkdir ejercicio1
+   92  sudo visudo
+   93  sudo usermod -aG sudo alumno
+   94  sudo visudo
+   95  clear
+   96  su - alumno
+   97  sudo ls /root
+   98  sudo apt update
+   99  apt list -upgrade
+  100  apt list upgrade
+  101  clear
+  102  sudo visudo
+  103  cd home
+  104  sudo visudo
+  105  clear
+  106  sudo visudo
+  107  sudo ls /root
+  108  CLEAR
+  109  clear
+  110  sudo visudo
+  111  ls
+  112  cd /home
+  113  ls
+  114  cd temp
+  115  ls
+  116  mkdir ejercicio1
+  117  whoami
+  118  sudo usermod -aG sudo alumno
+  119  mkdir ejercicio1
+  120  groups alumno
+  121  cd
+  122  pwd
+  123  mkdir ejercicio1
+  124  ls
+  125  ls -l
+  126  cd temp
+  127  clear
+  128  ls
+  129  cd ejercicio1
+  130  touch fichero1.txt
+  131  ls
+  132  nano fichero1.txt linea1
+  133  groups>fichero2.txt
+  134  groups>fichero1.txt
+  135  rename
+  136  sudo apt install rename
+  137  rename fichero1.txt ficheron.txt
+  138  rename fichero1 ficheron
+  139  mv fichero1.txt ficheron.txt
+  140  clear
+  141  cd
+  142  ls
+  143  mkdir ejercicio2
+  144  cd  ejercicio2
+  145  cd
+  146  cd ejercicio1
+  147  ls
+  148  cp ficheron.txt /home/ejercicio2
+  149  sudo cp ficheron.txt /home/ejercicio2
+  150  cp ficheron.txt /home/alumno/ejercicio2
+  151  groups
+  152  groups temp
+  153  ls touch>hola
+  154  touch hola.txt & ls>hola.txt
+  155  lsblk
+  156  lscpu
+  157  clear
+  158  userdel temp
+  159  sudo userdel temp
+  160  sudo groupdel ejercicio1
+  161  sudo groupdel ejercicio
+  162  ps aux | grep "proceso"
+  163  pwd
+  164  ls -l
+  165  cd
+  166  ls -l
+  167  cd ejercicio
+  168  cd ejercicio1
+  169  ls
+  170  ls -l
+  171  chmod utx ficheron.txt
+  172  chmod u+x ficheron.txt
+  173  ls -l
+  174  chmod u+rwx;g+rwx;o+rwx ficheron.txt
+  175  free -h
+  176  cd /home
+  177  clear
+  178  history >hola.txt
+  179  history>hola.txt
+  180  mkdir hola
+  181  sudo visudo
+  182  clear
+  183  [2~[2~[2~clear
+  184  clear
+  185  ls
+  186  cd alumno
+  187  ls
+  188  mkdir -p discos/{disco_{1..5}}
+  189  mkdir -p discos/disco_{1..5}
+  190  fdisk -1
+  191  fdisk
+  192  fdisk -l
+  193  sudo fdisk -l
+  194  clear
+  195  sudo fdisk -l
+  196  sudo fdisk
+  197  sudo fdisk /dev/sd1
+  198  sudo fdisk /dev/sd3
+  199  sudo fdisk /dev/sd2
+  200  sudo fdisk /dev/sd0
+  201  clear
+  202  mkdir -p examen/{salidas/salida{1..3},entradas/entrada{1..3}}
+  203  cd examen
+  204  tree
+  205  sudo groupadd grupo315
+  206  sudo gropus
+  207  sudo groups
+  208  lsmod
+  209  clear
+  210  sudo gropus ls
+  211  sudo groups
+  212  sudo groupadd grupo315
+  213  sudo groupdel group315
+  214  sudo groupdel grupo315
+  215  clear
+  216  sudo groupadd grupo315 && sudo useradd parcial315 && sudo usermod -aG grupo315 parcial315
+  217  cat /etc/passwd
+  218  id parcial315
+  219  clear
+  220  cat /etc/group
+  221  clear
+  222  cat /etc/group>touch datos_usuario.txt
+  223  cat /etc/group>datos_usuario.txt
+  224  cat /etc/group>touch datos_usuario.txt
+  225  cat /etc/group>datos_usuario.txt
+  226  cat /etc/group|grep "grupo315">datos_usuario.txt
+  227  cat /etc/group|grep "grupo315">/examen/salidas/salida2 datos_usuario.txt
+  228  cat /etc/group|grep "grupo315">examen/salidas/salida2 datos_usuario.txt
+  229  cat /etc/group|grep "grupo315">salidas/salida2 datos_usuario.txt
+  230  /etc/group|grep "grupo315">/examen/salidas/salida2 datos_usuario.txt
+  231  cat /etc/group|grep "grupo315">examen/salidas/salida2 datos_usuario.txtclear
+  232  clear
+  233  cat /etc/group|grep "grupo315">datos_usuario.txt
+  234  ls
+  235  cd salidas
+  236  ls
+  237  chown parcial315:grupo315 salida2
+  238  sudo chown parcial315:grupo315 salida2
+  239  fdisk -l
+  240  clear
+  241  lsmod
+  242  clear
+  243  cd salida3
+  244  cd ..
+  245  lsmod|grep "sshd">procesos.txt
+  246  ps aux|grep "sshd">procesos.txt
+  247  ps aux|grep "sshd">salida3/procesos.txt
+  248  cat /etc/group|grep "grupo315">examen/salidas/salida2datos_usuario.txt
+  249  cat /etc/group|grep "grupo315">examen/salidas/salida2/datos_usuario.txt
+  250  cat /etc/group|grep "grupo315">examen/salidas/salida1/datos_usuario.txt
+  251  ps aux|grep "sshd"&&sudo fdisk -l>salida3/procesos.txt
+  252  sudo ps aux|grep "sshd">procesos.txt
+  253  ps aux|grep "sshd">salida3/procesos.txt
+  254  cd salidas3
+  255  cd salida3
+  256  ps aux|grep "sshd">procesos.txt
+  257  sudo fdisk -l>>procesos.txt
+  258  mv procesos.txt examen/salidas/salida2 procesos2.txt
+  259  mv procesos.txt examen/salidas/salida2/procesos2.txt
+  260  mv procesos.txt /examen/salidas/salida2/procesos2.txt
+  261  clear
+  262  mv procesos.txt /home/examen/salidas/salida2/procesos2.txt
+  263  mv procesos.txt home/examen/salidas/salida2/procesos2.txt
+  264  mv procesos.txt //home/examen/salidas/salida2/procesos2.txt
+  265  mv procesos.txt /home/alumno/examen/salidas/salida2
+  266  mv procesos.txt /home/alumno/examen/salidas/salida2 su
+  267  sudo mv procesos.txt /home/alumno/examen/salidas/salida2
+  268  sudo mv procesos.txt /home/alumno/examen/salidas/salida2/procesos2.txt
+  269  clear
+  270  cat /etc/group|grep "grupo315">examen/salidas/salida2/datos_usuario.txt
+  271  cat /etc/group|grep "grupo315">/alumno/examen/salidas/salida2/datos_usuario.txt
+  272  cat /etc/group|grep "grupo315">/home/alumno/examen/salidas/salida2/datos_usuario.txt
+  273  sudo cat /etc/group|grep "grupo315">/home/alumno/examen/salidas/salida2/datos_usuario.txt
+  274  cd home
+  275  cd /home
+  276  cd alumno
+  277  hisotry
+  278  history
+  279  history>HISTORIAL.txt
+  280  sudo fdisk
+  281  sudo fdisk -l
+  282  sudo fdisk /dev/sdb
+  283  clear
+  284  apt install lvm2
+  285  sudo apt install lvm2
+  286  lvm2 --help
+  287  lvm --help
+  288  clear
+  289  sudo visudo
+  290  lvm --help
+  291  lsblk
+  292  sudo fdisk /dev/sdb
+  293  lsblk
+  294  sudo fdisk /dev/sdc
+  295  lsblk
+  296  sudo fdisk /dev/sdd
+  297  sudo pvs
+  298  sudolvs
+  299  sudo lvs
+  300  sudo pvs
+  301  lsblk
+  302  sudo pvcreate /dev/sdb1 /dev/sdb2
+  303  sudo pvcreate /dev/sdc1 /dev/sdc2
+  304  sudo pvcreate /dev/sdd1 /dev/sdd2
+  305  lsblk
+  306  sudo pvs
+  307  sudo vgcreate datos /dev/sdb1 /dev/sdc1 /dev/sdd1
+  308  sudo vgs
+  309  sudo lvcreate -L 1G lv0 datos
+  310  sudo lvcreate -L 1G -n lv0 datos
+  311  sudo lvcreate -L 1G -n www datos
+  312  lvremove lv0
+  313  sudo lvremove lv0
+  314  sudo lvremove /dev/lv0
+  315  sudo lvs
+  316  sudo lvremove lv0
+  317  sudo lvremove -f lv0
+  318  sudo lvremove /dev/datos/lv0
+  319  sudo lvs
+  320  sudo lvcreate -L 4G -n salvas datos
+  321  sudo lvs
+  322  sudo lvextend -L +1G /dev/datos/www
+  323  sudo lvextend -L +253M /dev/datos/www
+  324  sudo lvs
+  325  sudo lvextend -L +750M /dev/datos/www
+  326  sudo lvs
+  327  ls
+  328  history>history2.txt
